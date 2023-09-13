@@ -1,0 +1,17 @@
+{
+	"name": "气固转换机",
+	"description": "将气体转为化合物形式(单向)",
+	"health": 360,
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids":true,
+	"liquidCapacity":120,
+	"requirements": [
+ 	{ "item": "sand", "amount": 180 },
+ 	{ "item": "beryllium", "amount":75 },
+	{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research":"hydrogen"
+}

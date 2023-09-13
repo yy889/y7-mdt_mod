@@ -1,0 +1,11 @@
+{
+	"name": "臭氧化钾",
+	"description": "KO³,十分普通",
+	"details":"一种臭氧化物",
+	"color": "C3BBB6",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "ozone"
+}

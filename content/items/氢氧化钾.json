@@ -1,0 +1,11 @@
+{
+	"name": "氢氧化钾",
+	"description": "KOH,十分普通",
+	"details":"初中的强碱",
+	"color": "C3BBB6",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "ozone"
+}

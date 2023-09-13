@@ -1,0 +1,14 @@
+{
+	"name": "液氢",
+	"description": "液态氢,温度低",
+	"alwaysUnlocked":false,
+	"lightColor":"A2AADFE6",
+	"color": "929DE1E6",
+	"effect":"freezing",
+	"flammability": 0,
+	"temperature": 0.3,
+	"heatCapacity": 1,
+	"viscosity": 0.1,
+	"explosiveness": 0.3,
+	"research": "hydrogen"
+}

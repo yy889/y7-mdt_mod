@@ -1,0 +1,17 @@
+{
+	"name": "液气转换机",
+	"description": "将液体转为起体(单向)",
+	"health": 360,
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids":true,
+	"liquidCapacity":120,
+	"requirements": [
+ 	{ "item": "sand", "amount": 210 },
+ 	{ "item": "beryllium", "amount":85 },
+	{ "item": "silicon", "amount": 80 }
+	],
+	"category": "crafting",
+	"research":"hydrogen"
+}

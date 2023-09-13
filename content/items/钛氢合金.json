@@ -1,0 +1,11 @@
+{
+	"name": "钛氢合金",
+	"description": "一种存储氢的方式，内存30单位,形式是一种钛合金",
+	"details":"第一个物品!!!",
+	"color": "596ab8",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"research": "hydrogen"
+}
