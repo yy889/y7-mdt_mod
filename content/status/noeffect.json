@@ -1,0 +1,21 @@
+{
+	"name": "noeffect",
+	"damage": 0,
+	"healthMultiplier": 1.00,
+	"speedMultiplier": 1.00,
+	"effectChance": 1.00,
+	"effect": {
+		"type": "ParticleEffect",
+		"particles": 1,
+		"baseLength": 0,
+		"length": 16,
+		"lifetime": 10,
+		"line": true,
+		"lenFrom": 8,
+		"lenTo": 0,
+		"strokeFrom": 1,
+		"strokeTo": 0,
+		"colorFrom": "#FFEFB2",
+		"colorTo": "#FFEFB2"
+	}
+}

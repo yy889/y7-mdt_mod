@@ -5,3 +5,4 @@ function newLiquid(name) {
 	})();
 }
 newLiquid("液氢")
+newLiquid("气态钾")

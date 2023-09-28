@@ -1,0 +1,17 @@
+{
+	"name": "燃气发电机",
+	"description": "点燃气体,用热发电",
+	"health": 360,
+	"size": 3,
+	"hasPower": true,
+	"hasItems": false,
+	"hasLiquids":true,
+	"liquidCapacity":120,
+	"requirements": [
+ 	{ "item": "tungsten", "amount": 90 },
+ 	{ "item": "beryllium", "amount":85 },
+	{ "item": "silicon", "amount": 100 }
+	],
+	"category": "power",
+	"research":"钛氢合金"
+}

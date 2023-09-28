@@ -3,8 +3,8 @@ const 气固转换机 = library.MultiCrafter(GenericCrafter, GenericCrafter.Gene
   {
     input: { 
       liquids: ["hydrogen/30"],
-      items:["sand/1"],
-      power: 5,
+      items:["titanium/1"],
+      power: 3,
     },
     output: {
       items: ["y7xmd-钛氢合金/1"],
