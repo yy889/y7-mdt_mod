@@ -1,0 +1,70 @@
+{
+	"type": "GenericCrafter",
+	"name": "电解机SH",
+	"description": "S星牌氢气电解机,你值得拥有(",
+	"health": 360,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids":true,
+	"hasItems": false,
+	"outputsLiquid": true,
+	"outputLiquid":{
+			"liquid": "hydrogen",
+			"amount": 0.16
+	},
+	"craftTime":12,
+	"updateEffect": "electrified",
+	"consumes": {
+		"power": 5,
+		"liquid": "water/0.2"
+	},
+	
+	"liquidCapacity":160,
+	"requirements": [
+ 	{ "item": "graphite", "amount": 200 },
+ 	{ "item": "titanium", "amount":150 },
+	{ "item": "silicon", "amount": 120 }
+	],
+	"category": "crafting",
+	"research":"water",
+
+
+	"effect":[{
+		"type":"Effect",
+		"colorFrom":"4CA8F3",
+		"colorTo":"74C0FF",
+		"particles":8,
+		"cone":0,
+		"length":1,
+		"baseLength":10,
+		"offsetX":0,
+		"offsetY":0,
+		"spin":0,
+		"sizeFrom":2,
+		"sizeTo":2,
+		"useRotation":true,
+		"offset":0,
+		"region":"circle",
+		"strokeFrom":1,
+		"strokeTo":1,
+		"lenFrom":48,
+		"lenTo":48
+
+		
+	}],
+
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "hydrogen"
+			},
+			"DrawDefault"
+		]
+	}
+}

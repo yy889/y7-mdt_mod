@@ -1,4 +1,5 @@
 {
+	"type": "ImpactReactor",
 	"name": "燃气发电机",
 	"description": "点燃气体,用热发电",
 	"health": 360,
@@ -6,12 +7,27 @@
 	"hasPower": true,
 	"hasItems": false,
 	"hasLiquids":true,
+	"warmupSpeed": 1145.14,
+	"powerProduction": 22.78,
 	"liquidCapacity":120,
 	"requirements": [
- 	{ "item": "tungsten", "amount": 90 },
- 	{ "item": "beryllium", "amount":85 },
-	{ "item": "silicon", "amount": 100 }
+ 	{ "item": "tungsten", "amount": 180 },
+ 	{ "item": "beryllium", "amount":75 },
+	{ "item": "silicon", "amount": 60 }
 	],
 	"category": "power",
-	"research":"钛氢合金"
+	"consumes": {
+		"power":2.1,
+		"liquid":{
+		  "liquid":"hydrogen",
+		  "amount":"1",
+		  "booster":false
+		},
+		"items": {
+		  "items": [
+		  { "item": "钛氢合金", "amount": "1"}
+		  ]
+		}
+	  },
+	"research":"hydrogen"
 }

@@ -6,9 +6,9 @@
 	"color": "929DE1E6",
 	"effect":"freezing",
 	"flammability": 3,
-	"temperature": 0.3,
+	"temperature": 0.5,
 	"heatCapacity": 1,
 	"viscosity": 0.1,
-	"explosiveness": 0.3,
+	"explosiveness": 0.4,
 	"research": "hydrogen"
 }

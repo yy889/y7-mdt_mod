@@ -1,0 +1,45 @@
+{
+	"type": "GenericCrafter",
+	"name": "液氢气化机",
+	"description": "将液氢转为氢气",
+	"health": 360,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids":true,
+	"hasItems": false,
+	"outputsLiquid": true,
+	"outputLiquid":{
+			"liquid": "hydrogen",
+			"amount": 0.3
+	},
+	"craftTime":3,
+	"updateEffect": "freezing",
+	"consumes": {
+		"power": 3,
+		"liquid": "液氢/0.01"
+	},
+	
+	"liquidCapacity":90,
+	"requirements": [
+ 	{ "item": "graphite", "amount": 210 },
+ 	{ "item": "titanium", "amount": 90 },
+	{ "item": "silicon", "amount": 120 }
+	],
+	"category": "crafting",
+	"research":"氢气液化机",
+
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "cryofluid"
+			},
+			"DrawDefault"
+		]
+	}
+}
