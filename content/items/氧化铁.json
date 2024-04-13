@@ -1,0 +1,11 @@
+{
+	"name": "氧化铁",
+	"description": "氧化铁,生活中常以带有结晶水的形式出现",
+	"details":"无",
+	"color": "A3A3FF",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"hardness":2
+}

@@ -1,33 +1,36 @@
 {
-	"type": "ImpactReactor",
+	"type": "ConsumeGenerator",
 	"name": "燃气发电机",
-	"description": "点燃气体,用热发电",
+	"description": "点燃气体,用热发电,顺便产水",
 	"health": 360,
 	"size": 3,
 	"hasPower": true,
 	"hasItems": false,
 	"hasLiquids":true,
-	"warmupSpeed": 1145.14,
-	"powerProduction": 22.78,
-	"liquidCapacity":120,
-	"requirements": [
- 	{ "item": "tungsten", "amount": 180 },
- 	{ "item": "beryllium", "amount":75 },
-	{ "item": "silicon", "amount": 60 }
-	],
 	"category": "power",
-	"consumes": {
-		"power":2.1,
-		"liquid":{
-		  "liquid":"hydrogen",
-		  "amount":"1",
-		  "booster":false
-		},
-		"items": {
-		  "items": [
-		  { "item": "钛氢合金", "amount": "1"}
-		  ]
-		}
-	  },
-	"research":"hydrogen"
+	"powerProduction": 15,
+	"liquidCapacity":120,
+	"outputLiquid": { "liquid": "water", "amount": 0.1},
+	"requirements": [
+ 	{ "item": "copper", "amount": 180 },
+ 	{ "item": "lead", "amount":15 },
+	{ "item": "silicon", "amount": 160 },
+	"铁/150"
+	],
+	"consumes":{ 
+        "liquids": ["hydrogen/0.2","氧气/0.1"]
+    },
+	"research":"铁",
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+		
+			{
+				"type": "DrawLiquidTile",
+				"drawLiquid": "water"
+			},
+			"DrawDefault"
+		]
+	}
+	
 }

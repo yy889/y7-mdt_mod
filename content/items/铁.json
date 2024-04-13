@@ -1,0 +1,10 @@
+{
+	"name": "铁",
+	"description": "Fe,一种生活中极其常见的元素",
+	"details":"无",
+	"color": "8989FD",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0
+}

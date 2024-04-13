@@ -1,0 +1,10 @@
+{
+	"name": "硬铝",
+	"description": "一种铝,硅,铜的混合物",
+	"details":"很硬的哦~",
+	"color": "96CDB4",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0
+}

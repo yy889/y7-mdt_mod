@@ -1,0 +1,64 @@
+{
+	"type": "GenericCrafter",
+	"name": "铝还原机",
+	"description": "将氧化铝还原为铝",
+	"outputItem": "铝/4",
+	"outputLiquid": "water/6",
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"squareSprite": false,
+	"craftTime": 45,
+	"itemCapacity": 20,
+	"liquidCapacity": 50,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{"type": "DrawLiquidRegion",
+			"drawLiquid": "hydrogen"},
+			{
+				"type":"DrawCrucibleFlame",
+				"midColor":"F8DFDA",
+				"flameColor":"F7CDC4",
+				"flameRad":3.25,
+				"circleSpace":3,
+				"flameRadiusScl":12,
+				"flameRadiusMag":3,
+				"circleStroke":0.6,
+				"particles": 33,
+				"particleLife":87,
+				"particleRad":12,
+				"particleSize":2.68,
+				"rotateScl":1.5
+			},
+			"DrawDefault"
+			]
+	},
+	"craftEffect":"none",
+	"consumes": {
+	"power":2,
+	"liquid":"hydrogen/0.1",
+	"items": {"items": ["氧化铝/2"] }},
+	"requirements": [
+		"copper/250",
+		"graphite/175",
+		"lead/230",
+		"silicon/150",
+		"titanium/175"
+	],
+	"ambientSound":"smelter",
+	"category": "crafting",
+	"research": {
+		"root": true,
+		"planet" : "serpulo",
+		"name" : "金属进阶",
+		"requireUnlock" : false
+		
+
+	}
+}

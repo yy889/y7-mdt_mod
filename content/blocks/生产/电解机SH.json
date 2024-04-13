@@ -10,12 +10,12 @@
 	"outputsLiquid": true,
 	"outputLiquid":{
 			"liquid": "hydrogen",
-			"amount": 0.16
+			"amount": 0.2
 	},
 	"craftTime":12,
 	"updateEffect": "electrified",
 	"consumes": {
-		"power": 5,
+		"power": 4.5,
 		"liquid": "water/0.2"
 	},
 	

@@ -1,0 +1,11 @@
+{
+	"name": "氧化铝",
+	"description": "氧化铝,铝的致密氧化层",
+	"details":"无",
+	"color": "BDE7D7",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"hardness":4
+}

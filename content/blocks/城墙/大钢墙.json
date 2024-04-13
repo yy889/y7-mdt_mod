@@ -1,0 +1,15 @@
+{
+	"name": "大钢墙",
+	"description": "钢墙,会锈的",
+	"type": "Wall",
+	"health": 2840,
+	"armor":15,
+	"size": 1,
+	"absorbLasers":false,
+	"requirements": [
+	{ "item": "钢", "amount": 96}
+	],
+	"buildCostMultiplier": 0.85,
+	"category": "defense",
+	"research": "钢"
+}

@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
-	"name": "电解机SO",
-	"description": "S星牌臭氧电解机,你值得拥有(",
+	"name": "氧气电解机",
+	"description": "氧气电解机,真正还原现实",
 	"health": 360,
 	"size": 3,
 	"hasPower": true,
@@ -9,8 +9,8 @@
 	"hasItems": false,
 	"outputsLiquid": true,
 	"outputLiquid":{
-			"liquid": "ozone",
-			"amount": 0.08
+			"liquid": "氧气",
+			"amount": 0.1
 	},
 	"craftTime":12,
 	"updateEffect": "electrified",

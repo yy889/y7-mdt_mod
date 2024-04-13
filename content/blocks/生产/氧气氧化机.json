@@ -1,0 +1,58 @@
+{
+	"type": "GenericCrafter",
+	"name": "氧气氧化机",
+	"description": "氧气具有氧化性",
+	"outputItem": "oxide/4",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"squareSprite": false,
+	"craftTime": 45,
+	"itemCapacity": 20,
+	"liquidCapacity": 50,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{"type": "DrawLiquidRegion",
+			"drawLiquid": "氧气"},
+			{
+				"type":"DrawCrucibleFlame",
+				"midColor":"F8DFDA",
+				"flameColor":"F7CDC4",
+				"flameRad":3.25,
+				"circleSpace":3,
+				"flameRadiusScl":12,
+				"flameRadiusMag":3,
+				"circleStroke":0.6,
+				"particles": 33,
+				"particleLife":87,
+				"particleRad":12,
+				"particleSize":2.68,
+				"rotateScl":1.5
+			},
+			"DrawDefault"
+			]
+	},
+	"craftEffect":"none",
+	"consumes": {
+	"power":5.5,
+	"liquid":"氧气/0.06",
+	"items": {"items": ["scrap/12"] }},
+	"requirements": [
+		"copper/280",
+		"graphite/175",
+		"silicon/150",
+		"titanium/175"
+	],
+	"ambientSound":"smelter",
+	"category": "crafting",
+	"research": {
+		"parent":"氧气",
+		"objectives":["kiln"]
+	}
+}

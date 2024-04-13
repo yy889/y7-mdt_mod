@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "炼铁炉",
+	"outputItem": {
+		"item": "铁", "amount": 4
+	},
+	"outputLiquid": {
+		"liquid": "water", "amount": 0.1
+	},
+	"itemCapacity": 20,
+	"liquidCapacity": 50,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 45,
+	"consumes": {
+		"power": 3,
+		"liquid":"hydrogen/0.1",
+		"items": {
+			"items": [
+		{ "item": "氧化铁", "amount": 2 }
+		]	}
+	},
+	"requirements": [
+		"copper/300",
+		"lead/290",
+		"graphite/200",
+		"silicon/150",
+		"titanium/175"
+	],
+	"category": "crafting",
+	"research": "氧化铁"
+}

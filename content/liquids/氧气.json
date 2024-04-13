@@ -1,0 +1,14 @@
+{
+	"name": "氧气",
+	"description": "氧气,生命之源",
+	"alwaysUnlocked":false,
+	"lightColor":"ECC2BA7C",
+	"color": "ECC2BA4C",
+	"effect":"freezing",
+	"flammability": 0,
+	"temperature": 0,
+	"heatCapacity": 0.1,
+	"viscosity": 0,
+	"explosiveness": 0,
+	"research": "ozone"
+}

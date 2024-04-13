@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "钢铁熔炼炉",
+	"outputItem": {
+	"item": "钢", "amount": 3
+	},
+	"itemCapacity": 30,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 50,
+	"consumes": {
+		"power": 4,
+		"items": {
+			"items": [
+		{ "item": "铁", "amount": 3 },
+		{ "item": "coal", "amount": 3 }
+		]	}
+	},
+	"requirements": [
+		"copper/350",
+		"graphite/250",
+		"silicon/200",
+		"titanium/200"
+	],
+	"category": "crafting",
+	"research": "铁"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "大铝墙",
+	"description": "大铝墙,表面是氧化铝",
+	"type": "Wall",
+	"health": 3080,
+	"armor":15,
+	"size": 2,
+	"absorbLasers":false,
+	"requirements": [
+	{ "item": "铝", "amount": 48},
+	{ "item":"氧化铝", "amount":48}
+	],
+	"buildCostMultiplier": 0.85,
+	"category": "defense",
+	"research": "铝"
+}

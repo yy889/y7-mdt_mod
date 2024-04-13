@@ -1,0 +1,11 @@
+{
+	"name": "铝",
+	"description": "Al,一种金属元素,常用于制造铝合金",
+	"details":"虽然应该是开采为氧化铝(((",
+	"color": "D4D3D1",
+	"alwaysUnlocked":false,
+	"radioactivity": 0,
+	"explosiveness": 0,
+	"flammability": 0,
+	"hardness":2
+}

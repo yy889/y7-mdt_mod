@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"health": 360,
+	"name": "硬铝熔炼炉",
+	"outputItem": {
+	"item": "硬铝", "amount": 6
+	},
+	"itemCapacity": 30,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 80,
+	"consumes": {
+		"power": 7,
+		"items": {
+			"items": [
+		{ "item": "铝", "amount": 6 },
+		{ "item": "copper", "amount": 3 },
+		{ "item": "silicon", "amount": 2 }
+		]	}
+	},
+	"requirements": [
+		"copper/250",
+		"graphite/175",
+		"silicon/150",
+		"titanium/175",
+		"氧化铝/100"
+	],
+	"category": "crafting",
+	"research": "氧化铝"
+}

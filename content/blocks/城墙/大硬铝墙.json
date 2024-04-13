@@ -1,0 +1,15 @@
+{
+	"name": "大硬铝墙",
+	"description": "升级版大铝墙",
+	"type": "Wall",
+	"health": 3400,
+	"armor":15,
+	"size": 2,
+	"absorbLasers":false,
+	"requirements": [
+	{ "item": "硬铝", "amount":96}
+	],
+	"buildCostMultiplier": 0.85,
+	"category": "defense",
+	"research": "硬铝"
+}

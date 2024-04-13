@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"health": 400,
+	"name": "铝热反应发生器",
+	"outputItems": ["铁/6","氧化铝/3"],
+	"itemCapacity": 30,
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+		{ "item": "铝", "amount": 6 },
+		{ "item": "氧化铁", "amount": 3 }
+		]	}
+	},
+	"requirements": [
+		"copper/250",
+		"graphite/175",
+		"silicon/150",
+		"titanium/175",
+		"钢/50"
+	],
+	"category": "crafting",
+	"research": "钢"
+}

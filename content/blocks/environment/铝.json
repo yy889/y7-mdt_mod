@@ -1,0 +1,11 @@
+{
+	"name":"铝",
+	"type":"OreBlock",
+	"playerUnmineable":false,
+	"itemDrop":"氧化铝",
+	"mapColor":"D4D3D1FF",
+	"useColor":true,
+	"oreDefault":true,
+	"oreThreshold":0.89,
+	"oreScale":12
+	}
