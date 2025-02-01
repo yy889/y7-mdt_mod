@@ -10,13 +10,13 @@
 	"outputsLiquid": true,
 	"outputLiquid":{
 			"liquid": "氧气",
-			"amount": 0.1
+			"amount": 0.05
 	},
 	"craftTime":12,
 	"updateEffect": "electrified",
 	"consumes": {
 		"power": 5,
-		"liquid": "water/0.2"
+		"liquid": "water/0.1"
 	},
 	
 	"liquidCapacity":160,

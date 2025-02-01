@@ -20,17 +20,6 @@
 	"consumes":{ 
         "liquids": ["hydrogen/0.2","氧气/0.1"]
     },
-	"research":"铁",
-	"drawer": {
-		"type": "DrawMulti",
-		"drawers": [
-		
-			{
-				"type": "DrawLiquidTile",
-				"drawLiquid": "water"
-			},
-			"DrawDefault"
-		]
-	}
+	"research":"铁"
 	
 }

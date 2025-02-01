@@ -1,10 +1,9 @@
 {
 	"type": "GenericCrafter",
-	"name": "铝还原机",
-	"description": "将氧化铝还原为铝",
-	"outputItem": "铝/4",
-	"outputLiquid": "water/6",
-	"size": 2,
+	"name": "臭氧氧化机",
+	"description": "臭氧也具有氧化性",
+	"outputItem": "oxide/4",
+	"size": 3,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
@@ -20,11 +19,11 @@
 				"suffix": "-bottom"
 			},
 			{"type": "DrawLiquidRegion",
-			"drawLiquid": "hydrogen"},
+			"drawLiquid": "ozone"},
 			{
 				"type":"DrawCrucibleFlame",
-				"midColor":"F8DFDA",
-				"flameColor":"F7CDC4",
+				"midColor":"FFBDD4",
+				"flameColor":"FC80DD",
 				"flameRad":3.25,
 				"circleSpace":3,
 				"flameRadiusScl":12,
@@ -41,25 +40,19 @@
 	},
 	"craftEffect":"none",
 	"consumes": {
-		"power":2,
-		"liquid":"hydrogen/0.1",
-		"items": {"items": ["氧化铝/2"] }
-	},
+	"power":6,
+	"liquid":"ozone/0.04",
+	"items": {"items": ["scrap/12"] }},
 	"requirements": [
-		"copper/250",
+		"copper/280",
 		"graphite/175",
-		"lead/230",
 		"silicon/150",
 		"titanium/175"
 	],
 	"ambientSound":"smelter",
 	"category": "crafting",
 	"research": {
-		"root": true,
-		"planet" : "serpulo",
-		"name" : "金属进阶",
-		"requireUnlock" : false
-		
-
+		"parent":"ozone",
+		"objectives":["kiln"]
 	}
 }

@@ -2,12 +2,10 @@
 	"name": "y7xmd",
 	"displayName":"金属进阶",
 	"author":"yy792e ",
-	"version":"dev1.0",
+	"version":"dev21.3",
 	"minGameVersion":"145.1",
 	"hideInBrowser": false,
-	"description":"把现实金属带入mdt,会有怎样的火花呢~
-	本模组还处于初步开发阶段,内容不好玩可以提,轻喷
-	[yellow[]]祝你玩的开心!!!
-	[[]]感谢RA2提供模组框架 并提前感谢所有测试模组的人
+	"description":"本模组是y7的屑制模组(暂时),祝你玩的开心
+	感谢RA2提供模组框架 并提前感谢所有测试模组的人
 	感谢RA解惑群群友对燃气发电机输出水的指导"
 }

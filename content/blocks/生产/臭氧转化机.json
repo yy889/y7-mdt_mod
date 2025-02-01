@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
-	"name": "电解机SH",
-	"description": "S星牌氢气电解机,你值得拥有(",
+	"name": "臭氧转化机",
+	"description": "将臭氧通过红外线照射的方式催化为氧气",
 	"health": 360,
 	"size": 3,
 	"hasPower": true,
@@ -9,24 +9,25 @@
 	"hasItems": false,
 	"outputsLiquid": true,
 	"outputLiquid":{
-			"liquid": "hydrogen",
-			"amount": 0.1
+			"liquid": "氧气",
+			"amount": 0.3
 	},
-	"craftTime":12,
+	"craftTime":60,
 	"updateEffect": "electrified",
 	"consumes": {
-		"power": 4.5,
-		"liquid": "water/0.1"
+		"power": 6,
+		"liquid": "ozone/0.2"
 	},
 	
 	"liquidCapacity":160,
 	"requirements": [
  	{ "item": "graphite", "amount": 200 },
  	{ "item": "titanium", "amount":150 },
-	{ "item": "silicon", "amount": 120 }
+	{ "item": "silicon", "amount": 120 },
+	{ "item": "metaglass", "amount": 240 }
 	],
 	"category": "crafting",
-	"research":"water",
+	"research":"ozone",
 
 
 	"effect":[{
@@ -62,7 +63,7 @@
 			},
 			{
 				"type": "DrawLiquidTile",
-				"drawLiquid": "hydrogen"
+				"drawLiquid": "ozone"
 			},
 			"DrawDefault"
 		]
